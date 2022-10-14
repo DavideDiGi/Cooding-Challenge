@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-image: url(MaterialeEsercizioLim/background.jpg);
+  background-size: cover
+}
+.container{
+  margin:auto;
+  margin-top: 5vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 62vw;
+  height: 87vh;
+  border-radius: 20px;
+}
+.logo{
+  width: 22%;
+  margin: auto;
+  padding-top: 75px;
+}
+.logo img{
+  width: 100%;
+}
+.slogan{
+  margin: auto;
+  text-align: center;
+  color: #00FF00;
+  font-size: 30px;
+  width: 51%;
+}
+.buttons{
+  margin: auto;
+  width: 83%;
+  background: #00FF00;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  margin: 0 3px 0 3px;
+  font-size: 12px;
+  padding: 0 5px 0 5px;
+}
+main{
+  width: 83%;
+  margin: auto;
+  margin-top: 25px;
+}
+section{
+  margin-top: 20px;
+}
+.choose{
+  color: white;
+  font-size: 23px;
+  display: inline-block;
+}
+.scooter{
+  color: white;
+  font-weight: 100;
+}
+.bar{
+  height: 30px;
+  border-radius: 5px;
+}
+.orange{
+  width: 350px;
+  background: #DAA520;
+}
+.green{
+  width: 600px;
+  background: #32CD32;
+}
+.red{
+  width: 150px;
+  background: #B22222;
+}
